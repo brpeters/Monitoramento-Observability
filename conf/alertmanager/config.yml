@@ -21,6 +21,6 @@ receivers:
    - name: 'slack'
      slack_configs:
         - send_resolved: true
-          username: 'blpskate'
-          channel: '#geral'
-          api_url: 'https://hooks.slack.com/services/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'
+          username: 'user'
+          channel: '#chanel'
+          api_url: 'webhook'
