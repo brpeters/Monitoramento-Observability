@@ -18,5 +18,5 @@ Open http://your_ip:9100/metrics to access the metrics collected by Node-Exporte
    --mount type=bind,src=/proc,dst=/usr/proc \
    --mount type=bind,src=/sys,dst=/usr/sys \
    --mount type=bind,src=/,dst=/rootfs \
-   linuxtips/node-exporter_alpine
+   blpskate/node-exporter_alpine
 ```
